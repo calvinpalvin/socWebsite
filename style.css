@@ -1,0 +1,52 @@
+h1 {
+    font-family: "Goudy Old Style", serif;
+    align-items: start;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#Cards {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
