@@ -27,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    color:bisque;
+    color:#007BFF;
 }
 
 main {
@@ -40,6 +40,11 @@ main {
 
 section {
     margin-bottom: 2em;
+}
+
+#pplSquares, #code {
+    max-width: 800px;
+    width: 100%;
 }
 
 footer {
