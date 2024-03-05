@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Sociology and Technology</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociology and Computer Science</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sociology and Technology</h1>
+    <header>
+        <h1>Sociology and Computer Science</h1>
+    </header>
 
-    <div id="Cards">
-        <div class="card" onclick="toggleCard(this)">
-            <div class="card-header">
-                What is Sociology?
-            </div>
-            <div class="card-content">
-                <p> Sociology is the scientific and systematic study of human society that focuses on society, human social behavior, patterns of social relationships, social interaction, and aspects of culture associated with everyday life. Regarded as a part of both the social sciences and humanities, sociology uses various methods of empirical investigation and critical analysis to develop a body of knowledge about social order and social change. Sociological subject matter ranges from micro-level analyses of individual interaction and agency to macro-level analyses of social systems and social structure. Applied sociological research may be applied directly to social policy and welfare, whereas theoretical approaches may focus on the understanding of social processes and phenomenological method.</p>
-            </div>
-        </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="soc.html">Sociology</a>
+        <a href="css.html">Computer Science</a>
+        <a href="#relationship">Relationship</a>
+    </nav>
 
-        <div class="card" onclick="toggleCard(this)">
-            <div class="card-header">
-                What is Computer Science?
-            </div>
-            <div class="card-content">
-                <p>Computer science is the study of computation, information, and automation. It spans theoretical disciplines (such as algorithms, theory of computation, and information theory) to applied disciplines (including the design and implementation of hardware and software). Though more often considered an academic discipline, computer science is closely related to computer programming.</p>
-            </div>
-        </div>
-    </div>
+    <main>
+        <section id="sociology">
+            <h2>Sociology</h2>
+            <p>Sociology is the scientific study of society, human behavior, and social relationships. It examines patterns of social relationships, social interaction, and culture.</p>
+        </section>
 
-    <script src="script.js"></script>
+        <section id="computer-science">
+            <h2>Computer Science</h2>
+            <p>Computer Science is the study of computers and computational systems. It involves understanding algorithms, programming languages, data structures, and the theory of computation.</p>
+        </section>
+
+        <section id="relationship">
+            <h2>Relationship between Sociology and Computer Science</h2>
+            <p>While seemingly distinct, sociology and computer science intersect in various ways. The application of computer science in sociological research, known as computational sociology, utilizes computational methods to analyze social phenomena.</p>
+            <p>For example, social network analysis and data mining techniques help sociologists examine large datasets to identify patterns and trends in social networks and behavior.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Calvin Beardemphl</p>
+    </footer>
 </body>
 </html>
